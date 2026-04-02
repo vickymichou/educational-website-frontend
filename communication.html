@@ -1,0 +1,129 @@
+<!-- ΕΠΙΚΟΙΝΩΝΙΑ -->
+<!DOCTYPE html>
+<html>
+		<!--CSS style της σελίδας -->
+    <style>
+    nav{
+        display: table-cell;
+        width:20%;
+        text-align:left;
+        border-left: 1px solid;
+        border-bottom: 1px solid;
+    }
+    main{
+        padding-left: 10px;
+        padding-right: 550px;
+        line-height: 1.7;
+        display: table-cell;
+        width:60%;
+        height: auto;
+        text-align:left;
+        border-right: 1px solid;
+        border-left: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content {
+        display: table;
+        Width: 100%;
+    }
+    .image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;            
+        width: 350px;
+        height: 250px;
+    }
+    .button {
+        padding: 10px 20px;
+        margin: 5%;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        transition: 0.3s;
+        display: block;
+        width: fit-content;
+        border-radius: 5px;
+        border: none;
+    }
+    .button:hover {
+        background-color: #c2c7c7;
+    }
+    header{
+        text-align:center;
+        display:block;
+        border: 1px solid;
+    }
+    header h1{
+        font-size: 20px;
+        padding: 10px 24px;
+        margin:0;																												
+    }
+    main b1{
+        text-align: left;
+        padding-right: 5px;
+        padding-left: 10%;
+        padding-bottom: 15%;
+    }
+    main h2{
+        font-size: 15px;
+        vertical-align: top;
+        text-align: left;
+        padding-top: 0%;
+        color: green;   
+    }
+    .border{
+        display: table-cell;
+        width:30%;
+        text-align:left;
+        border-bottom: 1px solid;
+    }   
+
+  
+
+    </style>
+        <head> <meta charset="UTF-8">
+            <title>Επικοινωνία</title><!-- Τίτλος της σελίδας -->
+        </head>
+        <body>
+            <header>
+                <h1>Επικοινωνία</h1><!-- Επικεφαλίδα σελίδας -->
+            </header>
+			    <!-- Αυτό είναι sidebar menu με τις επιλογές  -->
+            <div class="content">
+                <nav>
+                    <a class="button" href="index.html">Αρχική σελίδα</a> <!-- Κουμπί για ανακατεύθυνση στην αρχική σελίδα  -->
+                    <a class="button" href="announcement.html">Ανακοινώσεις</a> <!-- Κουμπί για ανακατεύθυνση στην σελίδα με τισ ανακοινώσεισ  -->
+                    <a class="button" href="communication.html">Επικοινωνία</a> <!-- Κουμπί για ανακατεύθυνση στην σελίδα επικοινωνίας -->
+                    <a class="button" href="documents.html">Έγραφα μαθήματος</a> <!-- Κουμπί για ανακατεύθυνση στην σελίδα με τα έγγραφα του μαθήματος -->
+                    <a class="button" href="homework.html">Εργασίες</a> <!-- Κουμπί για ανακατεύθυνση στην σελίδα με τισ ανακοινώσεις -->
+                </nav>
+                <main>
+					  <!-- Εμφάνιση των επιλογων επικοινωνισς  -->
+                    Η συγκεκριμένη ιστοσελίδα θα περιέχει δύο δυνατότητες για την αποστολή e-mail στον καθηγητή:
+                    <div style="margin-left: 5%;">
+                        •	Μέσω web φόρμας</br>
+                        •	Με χρήση e-mail διεύθυνσης</br>
+                    </div>
+                    <h2>Αποστολή e-mail μέσω web φόρμας</h2>
+                    <b1>
+                        <div class="border">
+                            <form>
+                              <p><b>Αποστολέας: </b><input type="text" name="email" id="email"></p>
+                              <p><b>Θέμα: </b><input type="text" name="subject" id="subject"></p>
+                              <p><b>Κείμενο: </b><input type="text" name="txt" id="txt"></p>
+                              </form>
+                        </div>
+                    </b1>
+                    <h2>Αποστολή e-mail ε χρήση e-mail διεύθυνσης</h2>
+                    <b1>
+                        <div class="border">
+							  <!-- λινκ για ανακατεύθυνση στην σελιδα για αποστολή email  -->
+                            <p>Εναλλακτικά μπορείτε να αποστείλετε e-mail στην παρακάτω διεύθυνση ηλεκτρονικού ταχυδρομείου<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=20&ct=1706399917&rver=7.0.6738.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f0%2f%3fcobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26nlp%3d1%26RpsCsrfState%3d9259d613-e9da-2b1e-3024-e1fab6520a0a%26url%3d%252fowa%252f0%252f%253fcobrandid%25253dab0455a0-8d03-46b9-b18b-df2f57b9e44c%252526nlp%25253d1%252526RpsCsrfState%25253d9259d613-e9da-2b1e-3024-e1fab6520a0a%26state%3d1%26redirectTo%3daHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC8_Y29icmFuZGlkPWFiMDQ1NWEwLThkMDMtNDZiOS1iMThiLWRmMmY1N2I5ZTQ0YyZScHNDc3JmU3RhdGU9OTI1OWQ2MTMtZTlkYS0yYjFlLTMwMjQtZTFmYWI2NTIwYTBhJnVybD0lMmZvd2ElMmYwJTJmJTNmY29icmFuZGlkJTI1M2RhYjA0NTVhMC04ZDAzLTQ2YjktYjE4Yi1kZjJmNTdiOWU0NGMlMjUyNm5scCUyNTNkMSUyNTI2UnBzQ3NyZlN0YXRlJTI1M2Q5MjU5ZDYxMy1lOWRhLTJiMWUtMzAyNC1lMWZhYjY1MjBhMGE&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c&login_hint=outlook_99C584264AB62CD3%40outlook.com&username=outlook_99C584264AB62CD3%40outlook.com"> tutor@csd.auth.test.gr</a></p> 
+                        </div>
+                    </b1>
+                </main>
+            </div> 
+        </body>
+        
+    </html>
