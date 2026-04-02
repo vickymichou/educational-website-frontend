@@ -33,3 +33,10 @@ This project was developed to practice frontend development concepts, including:
 ## ⚠️ Notes
 
 This is a **frontend-only project** with no backend or database integration.
+
+---
+## 🌐 Live Demo
+
+This project was deployed in a real academic environment using a university-hosted web server.
+
+🔗 https://vimichou.webpages.auth.gr/3976partA
